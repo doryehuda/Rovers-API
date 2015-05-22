@@ -1,4 +1,4 @@
-package exampleaction.rovers.schiztech.com.roversactionexample;
+package com.schiztech.rovers.example.action;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
