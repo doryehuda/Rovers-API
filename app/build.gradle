@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.1"
 
     defaultConfig {
-        applicationId "exampleaction.rovers.schiztech.com.roversactionexample"
+        applicationId "com.schiztech.rovers.example.action"
         minSdkVersion 15
         targetSdkVersion 21
         versionCode 1
