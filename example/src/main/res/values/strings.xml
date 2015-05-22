@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Rovers Actions Example</string>
+    <string name="title_activity_create_action">CreateActionActivity</string>
+    <string name="action_name">Example Action</string>
+    <string name="action_desc">Here goes the action description. Let the user know what this action does.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_launched">LaunchedActivity</string>
 </resources>
