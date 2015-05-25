@@ -27,7 +27,7 @@ Usage
 
   setResult(RESULT_OK, roversActionIntent);
 ```
-#####Manifast:
+#####Manifest:
 ```xml
   <-- Icon & label fields will be used on the 'Add Rover' screen -->
   <activity
