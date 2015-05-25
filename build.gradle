@@ -12,10 +12,5 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-
-        maven {
-            url  "http://dl.bintray.com/schiztech/maven"
-        }
-
     }
 }

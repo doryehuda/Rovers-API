@@ -1,9 +1,17 @@
 <resources>
     <string name="app_name">Rovers Actions Example</string>
-    <string name="title_activity_create_action">CreateActionActivity</string>
-    <string name="action_name">Example Action</string>
-    <string name="action_desc">Here goes the action description. Let the user know what this action does.</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_launched">LaunchedActivity</string>
+
+    <string name="title_activity_create_action">Create Rover Action</string>
+
+    <string name="rovers_action_name">Example Action</string>
+    <string name="rovers_action_desc">Here goes the action description. Let the user know what this action does.</string>
+
+    <string name="launched_activity_title">Launched Activity</string>
+    <string name="launched_activity_content_1">This activity was launched by a Rover action.</string>
+    <string name="launched_activity_content_2">Rovers Action supports launching all types of activity intents, even with parameters added.</string>
+
+    <string name="settings_activity_title">Settings Activity</string>
+    <string name="settings_activity_content_1">This activity is the Rovers Action\'s settings activity.</string>
+    <string name="settings_activity_content_2">This is the place to let the user change the preferences of the Rovers Action.</string>
+
 </resources>
