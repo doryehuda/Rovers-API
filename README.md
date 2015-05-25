@@ -43,7 +43,7 @@ Usage
 
 ```
 
-#####Additional meta-data:
+#####Additional meta-data (goes inside the Activity tag):
 ```xml
   <meta-data android:name="description" android:value="description of the rovers action" />
   <meta-data android:name="settings_activity" android:value="optional. settings activity of this rover
