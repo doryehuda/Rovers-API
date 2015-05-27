@@ -3,16 +3,26 @@ RoversActionApi
 an API for creating Rovers Actions for the Rovers app:
 http://play.google.com/store/apps/details?id=com.schiztech.rovers.app
 
-Gradle
+This is a simple api that will help you create Rovers Actions and add them to your existing applications, or make stand-alone Rovers Actions within minutes!
+
+Screenshots
 ------------
+<img src="screenshots/screen1.png" width="200"  />
+<img src="screenshots/screen2.png" width="200"  />
+<br/>
+<img src="screenshots/screen3.png" width="200"  />
+<img src="screenshots/screen4.png" width="200"  />
+
+How-To Use
+--------
+#####Gradle:
 ```groovy
 dependencies {
     compile 'com.schiztech:roversapilibrary:1.0.0'
+    //make sure you have jcentral() listed as a repository
 }
 ```
 
-Usage
---------
 #####Creator Activity:
 ```android
   Intent roversActionIntent = RoversActionBuilder.build()
@@ -47,7 +57,7 @@ Usage
 ```xml
   <meta-data android:name="description" android:value="description of the rovers action" />
   <meta-data android:name="settings_activity" android:value="optional. settings activity of this rover
-                                                  NOTICE Settings Activity needs android:exported="true"" />
+                                                  NOTICE: Settings Activity needs android:exported="true"" />
   <meta-data android:name="min_sdk" android:value="optional. integer value" />
   <meta-data android:name="max_sdk" android:value="optional. integer value" />
 ```
