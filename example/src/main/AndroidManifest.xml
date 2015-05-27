@@ -10,8 +10,7 @@
 
         <!--
              This is the creator activity.
-            The label value will be displayed on the 'Add Rover' screen as the name of this Action
-            The icon value will be displayed on the 'Add Rover' screen as the icon of this Action
+            Icon & label fields will be used on the 'Add Rover' screen
         -->
         <activity
             android:name=".CreateActionActivity"
